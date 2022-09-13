@@ -31,3 +31,10 @@ Things you may want to cover:
 - Twitter: [@ademola_adebayo](https://twitter.com/ademola_adebayo)
 
 - LinkedIn: [Ademola Adebayo](https://www.linkedin.com/in/ademola-adebayo-81051578/)
+👤 **Yusuf Nviiri**
+
+- GitHub: [@yusufnviiri](https://github.com/yusufnviiri)
+
+- Twitter: [@YNviiri](https://twitter.com/YNviiri)
+
+- LinkedIn: [yusufnviiri]( https://www.linkedin.com/in/yusuf-nviiri-8b4146206/)
