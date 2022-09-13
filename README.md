@@ -22,3 +22,12 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+## Authors
+
+👤 **Ademola Adebayo**
+
+- Github: [@Smart1-hub](https://github.com/Smart1-hub)
+
+- Twitter: [@ademola_adebayo](https://twitter.com/ademola_adebayo)
+
+- LinkedIn: [Ademola Adebayo](https://www.linkedin.com/in/ademola-adebayo-81051578/)
