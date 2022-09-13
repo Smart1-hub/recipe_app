@@ -7,7 +7,7 @@ Things you may want to cover:
 
 * Ruby version
 
-* System dependencies
+
 
 * Configuration
 
@@ -22,3 +22,19 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+## Authors
+
+👤 **Ademola Adebayo**
+
+- Github: [@Smart1-hub](https://github.com/Smart1-hub)
+
+- Twitter: [@ademola_adebayo](https://twitter.com/ademola_adebayo)
+
+- LinkedIn: [Ademola Adebayo](https://www.linkedin.com/in/ademola-adebayo-81051578/)
+👤 **Yusuf Nviiri**
+
+- GitHub: [@yusufnviiri](https://github.com/yusufnviiri)
+
+- Twitter: [@YNviiri](https://twitter.com/YNviiri)
+
+- LinkedIn: [yusufnviiri]( https://www.linkedin.com/in/yusuf-nviiri-8b4146206/)
