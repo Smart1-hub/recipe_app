@@ -1,27 +1,32 @@
-# README
+## Recipe-app
+This application enables a user to access different recipes from the database
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Built With
+Ruby n rails
+## Live Link
 
-Things you may want to cover:
-
-* Ruby version
-
+[Live Link](coming soon)
 
 
-* Configuration
+### Setup
+~~~ 
+git clone https://github.com/Smart1-hub/recipe_app.git
+cd recipe_app
 
-* Database creation
+~~~
+- install project dependencies
 
-* Database initialization
+- run bundle install in the terminal
 
-* How to run the test suite
+ start project
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
 
-* ...
+## Environment Prerequisites
+
+Web Browser
+
+Code editor: Vscode or any other code editor
 ## Authors
 
 👤 **Ademola Adebayo**
@@ -38,3 +43,20 @@ Things you may want to cover:
 - Twitter: [@YNviiri](https://twitter.com/YNviiri)
 
 - LinkedIn: [yusufnviiri]( https://www.linkedin.com/in/yusuf-nviiri-8b4146206/)
+
+## Acknowledgement
+
+- Microvers Org.
+
+## Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+## Show your support
+
+Give a ⭐ if you like this project and how it is built!
+
+
+## 📝 License
+
+This project is [MIT](https://github.com/microverseinc/readme-template/blob/master/MIT.md) licensed.
