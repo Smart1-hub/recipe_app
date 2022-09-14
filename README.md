@@ -1,11 +1,4 @@
-## Recipe-app
-This application enables a user to access different recipes from the database
 
-## Built With
-Ruby n rails
-## Live Link
-
-[Live Link](coming soon)
 
 
 ### Setup
@@ -17,6 +10,7 @@ cd recipe_app
 - install project dependencies
 
 - run bundle install in the terminal
+
 
  start project
 
