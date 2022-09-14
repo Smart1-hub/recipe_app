@@ -6,13 +6,6 @@
 git clone https://github.com/Smart1-hub/recipe_app.git
 cd recipe_app
 
-~~~
-- install project dependencies
-
-- run bundle install in the terminal
-
-
- start project
 
 
 
@@ -23,7 +16,7 @@ Web Browser
 Code editor: Vscode or any other code editor
 ## Authors
 
-👤 **Ademola Adebayo**
+👤 **Ademola Adebaya**
 
 - Github: [@Smart1-hub](https://github.com/Smart1-hub)
 
