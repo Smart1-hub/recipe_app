@@ -1,10 +1,18 @@
+# frozen_string_literal: true
+
 Rails.application.routes.draw do
   devise_for :users
-  get 'recipes/index'
-  get 'recipe_foods/index'
-  get 'foods/index'
+
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Defines the root path route ("/")
-  # root "articles#index"
+  root 'foods#index'
+
+  resources :users
+  resources :foods, only: [:index, :show, :new, :create, :destroy]
+  resources :recipes, only: [:index, :show, :new, :create, :destroy] do
+    resources :recipe_foods, only: [:index, :show, :new, :create, :destroy]
+  end
+  resources :public_recipes, only: [:index]
+  resources :general_shopping_list, only: [:index]
 end
