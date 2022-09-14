@@ -1,24 +1,56 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
 
-* Ruby version
+### Setup
+~~~ 
+git clone https://github.com/Smart1-hub/recipe_app.git
+cd recipe_app
 
-* System dependencies
+~~~
+- install project dependencies
 
-* Configuration
+- run bundle install in the terminal
 
-* Database creation
 
-* Database initialization
+ start project
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+## Environment Prerequisites
 
-* ...
+Web Browser
+
+Code editor: Vscode or any other code editor
+## Authors
+
+👤 **Ademola Adebayo**
+
+- Github: [@Smart1-hub](https://github.com/Smart1-hub)
+
+- Twitter: [@ademola_adebayo](https://twitter.com/ademola_adebayo)
+
+- LinkedIn: [Ademola Adebayo](https://www.linkedin.com/in/ademola-adebayo-81051578/)
+👤 **Yusuf Nviiri**
+
+- GitHub: [@yusufnviiri](https://github.com/yusufnviiri)
+
+- Twitter: [@YNviiri](https://twitter.com/YNviiri)
+
+- LinkedIn: [yusufnviiri]( https://www.linkedin.com/in/yusuf-nviiri-8b4146206/)
+
+## Acknowledgement
+
+- Microvers Org.
+
+## Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+## Show your support
+
+Give a ⭐ if you like this project and how it is built!
+
+
+## 📝 License
+
+This project is [MIT](https://github.com/microverseinc/readme-template/blob/master/MIT.md) licensed.
