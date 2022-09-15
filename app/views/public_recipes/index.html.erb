@@ -1,15 +1,10 @@
-<h1 class="text-center">List of public repices</h1>
-<% @public_recipes.each do |recipe| %>
-    <%= link_to recipes_path(recipe.id), class: "card w-50 my-3 mx-auto", style: "text-decoration: none" do %>
-        <div class="card-body row">
-            <div class="col-lg-5">
-                <p><%= recipe.name %></p>
-                <p>By: <%= recipe.user.name %></p>
-            </div>
-            <div class="col-lg-5">
-                <p>Total food items: <%= recipe.total_food %></p>
-                <p>Total price: <%= recipe.total_price %></p>
-            </div>
-        </div>
-    <% end %>
-<% end %>
+<div class="wrapper">
+  <h1>Public Recipe List</h1>
+  <% if @public_recipes.length != 0 %>
+  <% @public_recipes.each do |recipe| %>
+    <%= render partial: 'public_recipe_card', locals: { recipe: recipe, user_id: recipe.id } %>
+  <% end %>
+  <% else %>
+    <h1>There are no public recipes to show</h1>
+  <% end %>
+</div>
