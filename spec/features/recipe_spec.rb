@@ -35,7 +35,7 @@ RSpec.describe 'Recipe page test', type: :feature do
 
   describe 'show page' do
     before :each do
-      @user = User.create(name: 'Grabrielle', email: 'ademola@test.com', password: '1234567')
+      @user = User.create(name: 'Ademola', email: 'ademola@test.com', password: '1234567')
       @recipe = @user.recipes.create(name: 'La soupe au choux', preparation_time: '2 hours', cooking_time: '1 hour',
                                      description: 'La soupe au choux description')
 
