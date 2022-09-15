@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>RecipeApp</title>
+    <title>Recipe-App</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -32,9 +32,9 @@
       </ul>
     </div>
     <div class="d-flex">
-            <div class="mx-2">Welcome <%= current_user.name %></div>
-            <%= button_to "Logout", destroy_user_session_path, method: :delete, data: { turbo: false }, class:"btn btn-danger" %>
-        </div>
+      <div class="mx-2">Welcome <%= current_user.name %></div>
+      <%= button_to "Logout", destroy_user_session_path, method: :delete, data: { turbo: false }, class:"btn btn-danger" %>
+    </div>
   </div>
 </nav>
 <% end %>
