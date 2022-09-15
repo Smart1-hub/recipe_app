@@ -21,7 +21,7 @@ class RecipesController < ApplicationController
       render :new
     end
   end
-  
+
   def update
     @recipe = Recipe.find(params[:id])
     @recipe.update(public: !@recipe.public)
