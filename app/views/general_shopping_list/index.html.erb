@@ -1,19 +1,32 @@
-<h1 class="text-center">Shopping List</h1>
-<div class="d-flex justify-content-between m-3 mx-auto w-75">
-    <p>Amount of food items to buy: <%= @total_foods %></p>
-    <p>Total value of food needed: $<%= @total_price %></p>
+<div><h1>ShoppingList</h1>
+  <div>
+  <p> Amount of food items to buy: <%= @shopping_list.count %> </p>
+  <p>Total value of food needed: <%= @shopping_list.sum(:price) %> </p>
 </div>
-<table class="table table-success table-striped text-center">
-        <tr>
-            <th>Name</th>
-            <th>Quantity</th>
-            <th>Price</th>
-        </tr>
-    <% @food_items_to_buy.each do |item| %>
-        <tr>
-            <td><%= item.name %></td>
-            <td><%= "#{item.quantity} #{item.measurement_unit}" %> </td>
-            <td>$ <%= item.price %></td>
-        </tr>
-    <% end %>
+
+<table>
+  <thead>
+    <tr>
+      <th>Food</th><br/>
+  <br/>
+      <th>Quantity</th>
+  <br/>
+      <th>Value</th>
+  <br/>
+      <th>Actions</th>
+    </tr>
+  </thead>
+<tbody>
+  <% @shopping_list.each do |food_item| %>
+  <tr>
+    <td><%= food_item.name %></td>
+    <td><%= food_item.price/2 %> grams</td>
+    <td>$<%= food_item.price %></td>
+    <td><%= link_to 'Remove', url: "/shopping_list/id" %></td>
+  </tr>
+  <% end %>
+</tbody>
 </table>
+</div>
+<%= link_to 'Back', foods_path %>
+</div>
